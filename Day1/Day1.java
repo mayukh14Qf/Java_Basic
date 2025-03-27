@@ -1,3 +1,5 @@
+package Day1;
+
 public class Day1 {
     // Comment -----> IDE WILL NOT EXECUTE THAT LINE
     /*
@@ -7,7 +9,7 @@ public class Day1 {
     //public is my access modifier ----- >
     // static means this main belongs to JVM ------>EXECUTE
     // void is return type
-    // main is a name
+    // main is a method name
     // String [] ---> Array
     // args --->variable name
     public static void main(String[] args) {
