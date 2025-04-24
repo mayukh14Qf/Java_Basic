@@ -1,6 +1,6 @@
 package Day1;
 
-public class Day1 {
+public class Introduction {
     // Comment -----> IDE WILL NOT EXECUTE THAT LINE
     /*
     Multi Line

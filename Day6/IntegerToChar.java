@@ -6,6 +6,8 @@ public class IntegerToChar {
         char result= (char)var; // narrowing
         System.out.println(result);
 
+        // Or
+
         System.out.println((char) 69); // narrowing
     }
 }

@@ -10,7 +10,7 @@ public class Widening {
 
          */
 
-        int var1= 123;
+        int var1= 123; // var1 ----- > int or anything smaller than int ( byte, short , char )
         int var2=78;
         int var3=4568;
         int var4='h'; // it will store the ascii value related to 'h'
@@ -28,6 +28,9 @@ public class Widening {
         System.out.println(var7);
         System.out.println(var8);
         System.out.println(var9);
+
+
+        double var10='f';
 
     }
 }
