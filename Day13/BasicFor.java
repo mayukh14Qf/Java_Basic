@@ -14,7 +14,7 @@ public class BasicFor {
          */
 
         // Printing sorry 10 times
-        for(int i=1;i<=10;i=i+1){
+        for(int i=1;i<=10;i=i+1){  // i ---> local Variable
             System.out.println("Sorry");
         }
 
