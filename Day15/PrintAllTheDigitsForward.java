@@ -19,16 +19,20 @@ public class PrintAllTheDigitsForward {
         int number= sc.nextInt();
         int n1=number;
 
-
-        // Reverse the number
-        // then print
-
-        //or
-
-        // convert into string
-        // print index ise
+        // finding the count
+        int count=0;
+        while (n1>0){
+            count++;
+            n1=n1/10;
+        }
 
 
+        int r=(int)Math.pow(10,count-1);
+
+        while(r>0){
+            System.out.println((number/r)%10);
+            r=r/10;
+        }
 
 
     }
